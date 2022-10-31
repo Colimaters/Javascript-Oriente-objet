@@ -10,15 +10,11 @@ function ex2() {
     var u = new User(0, "Darius", "darius1.morel@epitech.eu", "vouav", true);
     u.dump()
 }
-/*
+
 function ex3() {
     var u = new User(124, "login", "mail@epitech.eu", "password", true);
     u.add()
-setTimeout(() => {
-  console.log("Delayed for 1 second.");
-}, 1000)
     console.log(api.getUser(124))
-    return
     u.id = 124
     u.login = "ENFAITNON"
     u.mail = "ptdr@fun.com"
@@ -28,16 +24,7 @@ setTimeout(() => {
     console.log(api.getUser(124))
     u.delete()
     console.log(api.getUser(124))
-
-//var u = api.getUser(1)
-//console.log(u)
-//u.id = 4
-//u.login = "ENFAITNON"
-//console.log(api.addUser(u))
-//console.log(api.updateUser(u))
-//console.log(api.deleteUser(u.id))
-//console.log(api.getUsers());
-}*/
+}
 
 function main() {
     const test = {

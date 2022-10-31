@@ -4,12 +4,11 @@ function get_data() {
     
     const fileContents = fs.readFileSync('./data.json', 'utf8')
 
-    console.log(fileContents)
     return JSON.parse(fileContents)
 }
 
 function write_data(data) {
-    fs.writeFile('./data.json', JSON.stringify(data), 'utf8', err => {
+    fs.writeFileSync('./data.json', JSON.stringify(data), 'utf8', err => {
         if (err) {
             console.log(`Error writing file: ${err}`)
           } else {
@@ -21,8 +20,6 @@ function write_data(data) {
 function addUser(user) {
     var json = get_data()
     json.push(user)
-    console.log(json)
-    console.log("SDFGHJHGFDFGHJJHGFDFGHJHGFDFGH")
     write_data(json)
     return true
 }
