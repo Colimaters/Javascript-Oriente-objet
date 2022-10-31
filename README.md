@@ -1,24 +1,40 @@
-Javascript-Oreinte-Objet
+Javascript-Oriente-Objet
 ======================
 W@C Workshop la POO en Javascript
 
-Ce workshop a pour but de vous faire utiliser la programmation orienté objet via 4 exercices.
+Ce workshop a pour but de vous faire utiliser la programmation orienté objet via ??? exercices.
 
 ## **Table of contents**
   - [Exercice 1 : phrase vers tableau de caractère](#exercice-1--phrase-vers-tableau-de-caractère)
 
-> Pour ce workshop, nous partirons du principe qu'il n'y auras pas plus d'1 espace entre les mots. Cette gestion d'erreur n'est pas le but de ce workshop.
+> 
 
-> Pour chaque exercice, vous **devez** utiliser le fichier qui vous ait fournit et ajouter du code dans la fonction *run*. 
+## **Exercice 1 : Création de la classe**
+- **Fichier** : user.js
 
-## **Exercice 1 : ????**
-- **Fichier** : ex1.js
+Vous devez créer une classe ayant pour nom 'User' ainsi que son constructeur.
 
-Vous allez recevoir ???? en argument de votre programme.
-
-Vous devrez ????.
+Ce-dernier devras avoir 5 arguments "id", "login", "email", "password" et "isAdmin". Chacun de ces arguments vas être assigné à une propriété (une variable de la classe) du même nom.
 
 ```shell
-> node ex1.js ARG
-RESULT
+> node main.js ex1
+User {
+  id: 0,
+  login: 'Darius',
+  email: 'darius1.morel@epitech.eu',
+  password: 'vouav',
+  isAdmin: true
+}
+```
+
+## **Exercice 2 : Ajouter une méthode**
+- **Fichier** : user.js
+
+Vous devez créer une méthode pour la classe User
+
+Ce-dernier devras afficher toutes les propriétés de la classe.
+
+```shell
+> node main.js ex2
+0 Darius darius1.morel@epitech.eu vouav true
 ```

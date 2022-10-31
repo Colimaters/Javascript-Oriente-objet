@@ -1,0 +1,1 @@
+[{"id":1,"login":"sample","email":"sample@sample.com","password":"pass","isAdmin":true},{"id":2,"login":"sample2","email":"sample2@sample.com","password":"pass2","isAdmin":false},{"id":124,"login":"login","email":"mail@epitech.eu","password":"password","isAdmin":true}]
